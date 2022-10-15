@@ -1,0 +1,21 @@
+.wookie {
+  position: absolute;
+  left: 2rem;
+  bottom: 0;
+  width: 100;
+  height: 60%;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.homeCont {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 20px;
+}
