@@ -17,4 +17,3 @@ In order to learn how to create a real data base for this project I used Firebas
 ### Final words
 
 My name is Santiago Olivetto, I am a full stack developer student and I hope you enjoyed visiting my app. In case you have questions or recomendations for my app I would be very happy to hear them, you can contact me on my e-mail: santiolivetto@gmail.com
-
