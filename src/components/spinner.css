@@ -1,0 +1,38 @@
+.spinnerContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2230;
+}
+
+.spinner {
+  width: 80px;
+  height: 80px;
+}
+
+.spinner:after {
+  content: " ";
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  margin: 0rem;
+  border-radius: 50%;
+  border: 6px solid #A07D37;
+  border-color: #A07D37 transparent #A07D37 transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

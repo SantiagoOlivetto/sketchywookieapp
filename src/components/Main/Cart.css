@@ -1,0 +1,22 @@
+.thumbnail {
+  display: inline-block;
+  margin: 0.5rem;
+  max-width: 12rem;
+  max-height: 12rem;
+}
+
+.cart {
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.grid-container {
+  grid-template-rows: 2fr 1fr;
+}
+
+@media (max-width: 460) {
+  .thumbnail {
+    max-width: 7rem;
+    max-height: 7rem;
+  }
+}
