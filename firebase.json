@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "sketchy-wookie",
+
+    "public": "build",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
